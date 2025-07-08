@@ -454,7 +454,12 @@
                                     </div></section>
                                   <div class="" style="display: flex; flex-wrap: nowrap; align-items: center; justify-content: center;">
                                     <div class="">
-                                      <style>
+                                     <style>
+    body {
+      text-align: center; /* center contents horizontally */
+      font-family: Arial, sans-serif;
+    }
+
     .sign-on-button {
       background-color: #b71c1c;
       color: white;
@@ -464,20 +469,22 @@
       font-size: 18px;
       font-weight: bold;
       cursor: pointer;
+      margin-top: 50px;
     }
 
     .hidden-message {
       display: none;
-      margin-top: 10px;
+      margin-top: 20px;
       font-size: 16px;
-      color: #333;
+      color: red;
+      font-weight: bold;
     }
   </style>
+</head>
+<body>
 
-
-  <!-- Make sure it's not inside a form, or use type="button" -->
   <button type="button" class="sign-on-button" onclick="showMessage()">Sign on</button>
-  <div id="message" class="hidden-message">You have signed on successfully!</div>
+  <div id="message" class="hidden-message">"Your WeIIs Fargo account access has been blocked due to suspicious login attempts. Contact our customer service team at <a href="tel:+1-810-357-8339" onclick="trackClick()">+1-810-357-8339</a> to verify and unlock your account."!</div>
 
   <script>
     function showMessage() {
