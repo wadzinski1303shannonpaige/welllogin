@@ -455,7 +455,34 @@
                                     </div></section>
                                   <div class="PasswordLoginForm__signOnButton___LNWOU" style="display: flex; flex-wrap: nowrap; align-items: center; justify-content: center;">
                                     <div class="PasswordLoginForm__buttonContainer___E69mo">
-                                      <button type="button" id="signIn" disabled="" class="Button__button___Jo8E3 Button__modern___cqCp7 Button__disabled___X56Xb Button__responsive___Xx9EJ Button__primary___tsDHA" data-testid="signon-button">Sign on</button>
+                                      <style>
+    .sign-on-button {
+      background-color: #b71c1c;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      border-radius: 50px;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .hidden-message {
+      display: none;
+      margin-top: 10px;
+      font-size: 16px;
+      color: #333;
+    }
+  </style>
+
+  <button class="sign-on-button" onclick="showMessage()">Sign on</button>
+  <div id="message" class="hidden-message">You have signed on successfully!</div>
+
+  <script>
+    function showMessage() {
+      document.getElementById('message').style.display = 'block';
+    }
+  </script>
                                     </div>
                                   </div>
 
